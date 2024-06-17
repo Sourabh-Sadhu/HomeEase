@@ -1,0 +1,20 @@
+.text-services{
+    font-family: os_semi_bold;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    color: rgba(84, 84, 84, 1.00);
+}
+
+.service-name{
+ color:rgba(15, 15, 15, 1.00) ;  
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 12px; 
+}
+
+
+.fixed-height {
+    height: 277px; 
+    width: 100%; 
+    object-fit: cover; }
