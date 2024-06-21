@@ -5,9 +5,9 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes:Routes=[
   {path: '', component: HomeEaseComponent, children: [
-    { path: '', redirectTo: 'data', pathMatch: 'full' },
+  
     {
-      path: 'data',
+      path: '',
       loadChildren: () =>
         import('./home-page/home-page.module').then((m) => m.HomePageModule),
     },
